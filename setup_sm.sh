@@ -1,6 +1,8 @@
 wget https://raw.githubusercontent.com/zhanghang1989/AutoGluon-Tutorial-CVPR2020/master/6.pytorch_hpo.ipynb && mv 6.pytorch_hpo.ipynb quick_start.ipynb
 wget https://raw.githubusercontent.com/zhanghang1989/AutoGluon-Tutorial-CVPR2020/master/7.enas_mnist.ipynb && mv 7.enas_mnist.ipynb proxylessnas.ipynb
 wget https://raw.githubusercontent.com/zhanghang1989/AutoGluon-Tutorial-CVPR2020/master/mlp.ipynb
+wget https://hangzh.s3-us-west-1.amazonaws.com/encoding/legacy/ofa-tutorial.zip
+unzip ofa-tutorial.zip && rm ofa-tutorial.zip
 
 mkdir -p ILSVRC2012 && cd ILSVRC2012/
 wget https://hanlab.mit.edu/files/OnceForAll/ofa_cvpr_tutorial/imagenet_subtrain.tar.gz
